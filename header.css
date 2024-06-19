@@ -1,0 +1,82 @@
+
+@font-face {
+    font-family: quicksand;
+    src: url(./assets/fonts/quicksand/Quicksand_Book.otf);
+}
+
+@font-face {
+    font-family: nuby ;
+    src: url(./assets/fonts/nuby-regular-maisfontes.24e5/nuby-regular.otf);
+}
+
+
+
+header{
+    width: 1000px;
+    height: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    font-family: nuby;
+    font-weight: 900;
+}
+.dark-light-button{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+#dark-light-text{
+    margin-right: 10px;
+    font-family:quicksand;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.search-input{
+    height: 60px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    line-height: 80px;
+    transition: 0.1s ease;
+    font-size: 1.5em;
+    padding: 0 60px;
+    box-shadow: 0px 0px 8px black;
+}
+
+.search-icon{
+    position: absolute;
+    height: 30px;
+    bottom: 0;
+    margin: 15px 15px 15px;
+    z-index: 1;
+}
+
+.search-button{
+    position: absolute;
+    border: none;
+    height: 45px;
+    width: 95px;
+    bottom: 0;
+    right: 0;
+    margin: 7px;
+    border-radius: 14px;
+    background-color: #0079ff;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
