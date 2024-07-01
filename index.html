@@ -23,18 +23,19 @@
         <meta property="og:url" content="https://github.com/Youthstack" />
         <!-- <meta property="og:image" content="https://oursite.com/our-image.jpg" /> -->
         <title>Github User Search</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet"
+        />
     </head>
-    <div class="container">
-        <body>
+    <body>
+        <div class="container">
             <header>
-                
-
-                    <!-- title -->
-                    <div class="top-header">
+                  <!-- title -->
+                  <div class="top-header">
                     <h1>devfinder</h1>
                     <!-- theme -->
                     <div class="dark-light-button">
@@ -81,83 +82,77 @@
                     </div>
             </div>
         </header>
-        <main class="main-content">
-                <!-- Octacat Image -->
-    
-                        <div class="modal">
-                            <div class="modal-container">
-                                <div class="content-body">
-                                    <div class="profile-pic">
-                                        <img src="./assets/images/image-user-placeholder.png" alt="Octacat" />
-                                    </div>
-                            </div>
 
-                                                </div>
-                            
-                                    <!-- basic info -->
-                                <!-- stat -->
-                                <div class="info-container">
-                                    <div class="basic-info">
-                                        <div id="basic-styling">
-                                            <h2>The Octacat</h3>
-                                            <p>@octocat</p>
-                                                <div class="bio">
-                                                            <p>This profile has no bio</p>
-                                                        </div>
-                                        </div>
-                                        <div>
-                                            <p>Joined 25 Jan 2011</p>
-                                        </div>
-                                                                </div>
-                                  
-
-                                                <div class="stats-info">
-                                                    <div>
-                                                        <p>Repos</p>
-                                                        <p>8</p>
-                                                    </div>
-                                                    <div>
-                                                        <p>Followers</p>
-                                                        <p>3894</p>
-                                                    </div>
-                                                    <div>
-                                                        <p>Following</p>
-                                                        <p>9</p>
-                                                    </div>
-                                                </div>
-                                            </                                      <!-- socials | location | organization | website-->
-                                            <div class="icons">
-                                                <div class="icon-content">
-                                                    <div>
-                                                        <img src="./assets/images/icon-location.svg" alt="Location" />
-                                                        <p>San Francisco</p>
-                                                    </div>
-                                                    <div>
-                                                        <img src="./assets/images/icon-website.svg" alt="Website Link" />
-                                                        <a href="">github.blog</a>
-                                                    </div>
-                                                </div>
-                                                <div class="icon-content">
-                                                    <div>
-                                                        <img src="./assets/images/icon-twitter.svg" alt="Twitter Logo" />
-                                                        <a href="">Not available</a>
-                                                    </div>
-                                                    <div>
-                                                        <img src="./assets/images/icon-company.svg" alt="Company" />
-                                                        <a href="">@github</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                            
-                            </div>
+                 <!-- main -->
+            <main>
+                <div class="card">
+                    <div class="card-info">
+                        <div class="card-img-container">
+                            <img
+                                class="card-profile-img"
+                                src="./assets/images/image-user-placeholder.png"
+                                alt="Image user"
+                            />
                         </div>
-
-        </main>
-
+                        <div class="card-basic">
+                            <div>
+                                <h2 class="">The Octocat</h2>
+                                <a href="#">@octocat</a>
+                            </div>
+                            <p class="date">Joined 25 Jan 2011</p>
+                        </div>
+                    </div>
+                    <div class="card-bio">This Profile has no bio</div>
+                    <div class="card-stats">
+                        <span>
+                            <p>Repos</p>
+                            <strong>8</strong>
+                        </span>
+                        <span>
+                            <p>Followers</p>
+                            <strong>3965</strong>
+                        </span>
+                        <span>
+                            <p>Following</p>
+                            <strong>9</strong>
+                        </span>
+                    </div>
+                    <div class="card-socials">
+                        <div class="social-container">
+                            <img
+                                class="social-icon"
+                                src="./assets/images/icon-location.svg"
+                                alt="Location icon"
+                            />
+                            <p>San Francisco</p>
+                        </div>
+                        <div class="social-container">
+                            <img
+                                class="social-icon"
+                                src="./assets/images/icon-twitter.svg"
+                                alt="Twitter icon"
+                            />
+                            <p>Not available</p>
+                        </div>
+                        <div class="social-container">
+                            <img
+                                class="social-icon"
+                                src="./assets/images/icon-website.svg"
+                                alt="Link icon"
+                            />
+                            <p>github.blog</p>
+                        </div>
+                        <div class="social-container">
+                            <img
+                                class="social-icon"
+                                src="./assets/images/icon-company.svg"
+                                alt="Building icon"
+                            />
+                            <p>@github</p>
+                        </div>
+                    </div>
                 </div>
-            </header>
-            
-        </body>
-    </div>
+            </main>
+        </div>
+    </body>
 </html>
